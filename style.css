@@ -1,0 +1,124 @@
+* {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+#int {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont-eqp {
+    display: flex;
+    border-top: 1px solid #000;
+}
+.cont-go {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border-top: 1px solid #000;
+    
+}
+.eqp-cont {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+#gral {
+    height: 90%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+#go {
+    width: 25%;
+    height: 30px;
+    margin: 10px;
+}
+.dsq {
+    background-color: #f00;
+    color: #000;
+    border: 1px solid transparent;
+}
+.dsq:hover {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    border: 1px solid #000;
+}
+button {
+    border-radius: 10px;
+    background-color: #0f0;
+    color: #000;
+    border: 1px solid #000;
+}
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+#lnPns {
+    display: flex;
+}
+.cont-p {
+    display: flex;
+    justify-content: center;
+}
+#lnPns div p {
+    font-size: 40px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.mvmnt1 {
+    animation: p1 10s forwards;
+}
+.mvmnt2 {
+    animation: p2 10s forwards;
+}
+.mvmnt3 {
+    animation: p3 10s forwards;
+}
+img {
+    width: 30%;
+    margin: 0 20px;
+}
+.prs {
+    width: 15%;
+    margin: 10px;
+}
+
+@keyframes p1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(15%);
+    }
+}
+@keyframes p2 {
+    0% {
+        transform: translateX(15%);
+    }
+    100% {
+        transform: translateX(40%);
+    }
+}
+@keyframes p3 {
+    0% {
+        transform: translateX(40%);
+    }
+    100% {
+        transform: translateX(65%);
+    }
+}
